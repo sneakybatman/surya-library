@@ -90,7 +90,8 @@ Local development: `npm run db:schema:local && npm run db:seed:local && npm run 
       infrastructure, not UI, and must stay.
 - [x] DEPLOYED 2026-08-08: https://library-surya.library-surya.workers.dev
       (D1 id c8e60967…, AUTH_SECRET set; smoke-tested: site 200, API auth-gated)
-- [ ] Set the family PIN: `cd revamp/app && npx wrangler secret put PIN`
+- [x] Family PIN set (2026-08-08) — app is fully usable; rotate anytime with
+      `cd revamp/app && npx wrangler secret put PIN`
 - [ ] Family cataloguing pass to enter almirah/shelf locations (app's "जगह दर्ज करें" mode)
 - [ ] Nightly CSV backup GitHub Action (design/01 §4)
 - [ ] AI features per design/04: `/api/ask` synopsis search + recommendations with Amazon links
