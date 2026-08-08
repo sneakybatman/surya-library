@@ -1,0 +1,13 @@
+{
+  "name": "Panchvati Library",
+  "short_name": "Panchvati",
+  "description": "Panchvati Library — find where every book is kept",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f5f1",
+  "theme_color": "#f6f5f1",
+  "lang": "en",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

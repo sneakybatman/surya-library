@@ -1,0 +1,652 @@
+{
+  "row_count": 1889,
+  "columns": {
+    "DATED": {
+      "filled": 1889,
+      "fill_pct": 100.0,
+      "distinct": 1,
+      "top": [
+        [
+          "2019-06-01",
+          1889
+        ]
+      ]
+    },
+    "ACCC_NO": {
+      "filled": 1889,
+      "fill_pct": 100.0,
+      "distinct": 1889,
+      "top": [
+        [
+          "6",
+          1
+        ],
+        [
+          "10",
+          1
+        ],
+        [
+          "15",
+          1
+        ],
+        [
+          "16",
+          1
+        ],
+        [
+          "22",
+          1
+        ],
+        [
+          "28",
+          1
+        ]
+      ]
+    },
+    "CLASS_NO": {
+      "filled": 1889,
+      "fill_pct": 100.0,
+      "distinct": 1,
+      "top": [
+        [
+          "0",
+          1889
+        ]
+      ]
+    },
+    "BOOK_NO": {
+      "filled": 1889,
+      "fill_pct": 100.0,
+      "distinct": 1,
+      "top": [
+        [
+          "0",
+          1889
+        ]
+      ]
+    },
+    "AUTHOR_1": {
+      "filled": 1885,
+      "fill_pct": 99.8,
+      "distinct": 1317,
+      "top": [
+        [
+          "CUSSLER CLIVE",
+          47
+        ],
+        [
+          "BLYTON,ENID",
+          46
+        ],
+        [
+          "PREMCHANDRA",
+          23
+        ],
+        [
+          "FOLLETT KEN",
+          22
+        ],
+        [
+          "SHARMA,SHRI RAM",
+          15
+        ],
+        [
+          "KHUSHWANT SINGH",
+          14
+        ]
+      ]
+    },
+    "AUTHOR_2": {
+      "filled": 1889,
+      "fill_pct": 100.0,
+      "distinct": 1828,
+      "top": [
+        [
+          "SHRI SAI SACHCHARIT -THAKUR,SHIVRAM",
+          5
+        ],
+        [
+          "SHIR MADBHAGWAT GEETA-YATHAROOP-SWAMI,PRABHUPAAD",
+          4
+        ],
+        [
+          "SHRI MADBHAGWATGEETA-GEETA PRESS,GORAKHPUR",
+          3
+        ],
+        [
+          "THE AGE OF IMPERIAL KANNAUJ-BHARTIYA VIDHYA BHAWAN",
+          3
+        ],
+        [
+          "GODAN-PREMCHANDRA",
+          3
+        ],
+        [
+          "BIKHRE PHOOL-SINGH,YASHPAL",
+          3
+        ]
+      ]
+    },
+    "TITLE": {
+      "filled": 1888,
+      "fill_pct": 99.9,
+      "distinct": 1786,
+      "top": [
+        [
+          "MERI PRIY KAHANIYA",
+          8
+        ],
+        [
+          "THE ART OF WAR -SUN TZU",
+          5
+        ],
+        [
+          "SHRI SAI SACHCHARIT",
+          5
+        ],
+        [
+          "SHIR MADBHAGWAT GEETA-YATHAROOP",
+          4
+        ],
+        [
+          "BIKHRE PHOOL",
+          4
+        ],
+        [
+          "SHRI MADBHAGWATGEETA",
+          3
+        ]
+      ]
+    },
+    "PUBLISHER_NAME": {
+      "filled": 1874,
+      "fill_pct": 99.2,
+      "distinct": 811,
+      "top": [
+        [
+          "PENGUIN BOOKS N.D.",
+          136
+        ],
+        [
+          "HARPER COLLINS INDIA",
+          62
+        ],
+        [
+          "RAJKAMAL,DELHI",
+          41
+        ],
+        [
+          "RUPA & CO.",
+          37
+        ],
+        [
+          "OXFORD UNIVERSITY PRESS",
+          30
+        ],
+        [
+          "GEETA PRESS,GORAKHPUR",
+          23
+        ]
+      ]
+    },
+    "PLACE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "COLLN_TYPE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "TYPE_OF_MATERIAL": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "YEAR": {
+      "filled": 1704,
+      "fill_pct": 90.2,
+      "distinct": 82,
+      "top": [
+        [
+          "2012",
+          64
+        ],
+        [
+          "1994",
+          59
+        ],
+        [
+          "2010",
+          58
+        ],
+        [
+          "2008",
+          53
+        ],
+        [
+          "1993",
+          51
+        ],
+        [
+          "1995",
+          51
+        ]
+      ]
+    },
+    "EDITION": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "PG_COUNT": {
+      "filled": 1860,
+      "fill_pct": 98.5,
+      "distinct": 643,
+      "top": [
+        [
+          "192",
+          20
+        ],
+        [
+          "144",
+          18
+        ],
+        [
+          "160",
+          16
+        ],
+        [
+          "128",
+          15
+        ],
+        [
+          "152",
+          13
+        ],
+        [
+          "112",
+          13
+        ]
+      ]
+    },
+    "ILLUST": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "BK_SIZE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ISBN": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "LANGUAGE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "SCRIPT_USED": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "TRANSLATED": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "SUBJECT_HEAD": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "PHY_MED": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "PRICE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "TYPE_OF_BINDING": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "DOC_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "SERIES_NAME": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ISSN_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "VOL_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "PEGINATION": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "TITLE_VOLUME": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ENTRY_ELEMENT": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "0",
+          1
+        ]
+      ]
+    },
+    "OTHER_NAME": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ADDRESS": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "COUNTRY": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "BIBLIO_GRAPHY": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "MEETING_NAME": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "COUNTTRY_MEETING": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "PLACE_MEETING": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "DATE_MEETING": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "NUMBER_MEETING": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "KEY": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ISSUE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "CUR": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "Rs",
+          1
+        ]
+      ]
+    },
+    "FCUR": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "REMARKS": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "WRITTENOFF": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "NOOFCOPIES": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "EDITOR": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "BK_INFO": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "Purchased",
+          1
+        ]
+      ]
+    },
+    "ISSUED": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "Yes",
+          1
+        ]
+      ]
+    },
+    "COND_BOOK": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "Good",
+          1
+        ]
+      ]
+    },
+    "AVAILABILITY": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "Available",
+          1
+        ]
+      ]
+    },
+    "NEW_CLASS_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ORDER_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "WITH_MEDIA": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "REFERENCE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "BK_BINDING": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "Paperback",
+          1
+        ]
+      ]
+    },
+    "EDITOR_TYPE": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "Ed.",
+          1
+        ]
+      ]
+    },
+    "DISC_PR": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "0",
+          1
+        ]
+      ]
+    },
+    "ACTUAL_PR": {
+      "filled": 1,
+      "fill_pct": 0.1,
+      "distinct": 1,
+      "top": [
+        [
+          "0",
+          1
+        ]
+      ]
+    },
+    "SNO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ACCREGDATE": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ALMIRAH_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "SHELF_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ISS": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "ACCCC_NO": {
+      "filled": 0,
+      "fill_pct": 0.0,
+      "distinct": 0,
+      "top": []
+    },
+    "HINDI": {
+      "filled": 1889,
+      "fill_pct": 100.0,
+      "distinct": 1,
+      "top": [
+        [
+          "0",
+          1889
+        ]
+      ]
+    }
+  }
+}

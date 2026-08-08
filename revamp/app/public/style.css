@@ -1,0 +1,134 @@
+/* Panchvati Library — modern minimal, still elderly-friendly:
+   20px+ body text, 56px+ touch targets, AAA contrast, nothing auto-dismisses. */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink: #1d1c19;
+  --ink-soft: #5f5d55;
+  --paper: #f6f5f1;
+  --card: #ffffff;
+  --line: #e6e4dc;
+  --accent: #17614a;
+  --accent-press: #114b39;
+  --accent-ink: #ffffff;
+  --locate-bg: #ffd54d;
+  --locate-ink: #241c00;
+  --ok-bg: #dff1e6; --ok-ink: #0c5c38;
+  --bad-bg: #fbe7e2; --bad-ink: #a32912;
+  --off-bg: #eceae4; --off-ink: #5f5d55;
+  --focus: #0b57d0;
+  --radius: 16px;
+  --shadow: 0 1px 2px rgba(25, 22, 10, .05), 0 6px 18px rgba(25, 22, 10, .07);
+}
+
+html { font-size: 20px; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans Devanagari", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+#app { max-width: 640px; margin: 0 auto; padding: 1.1rem 1rem 4rem; }
+
+h1 { font-size: 1.45rem; font-weight: 800; letter-spacing: -.02em; margin: .8rem 0 1rem; }
+.brand { text-align: center; margin: 1rem 0 1.5rem; }
+
+button, .btn {
+  display: block; width: 100%;
+  min-height: 62px;
+  font-size: 1.05rem; font-weight: 600; font-family: inherit;
+  border: none; border-radius: 14px;
+  background: var(--accent); color: var(--accent-ink);
+  padding: .6rem 1.1rem; margin: .55rem 0;
+  cursor: pointer;
+  text-align: center; text-decoration: none;
+  box-shadow: var(--shadow);
+  transition: transform .12s ease, background .12s ease;
+}
+button:active, .btn:active { transform: scale(.985); background: var(--accent-press); }
+button.secondary, .btn.secondary {
+  background: var(--card); color: var(--ink);
+  border: 1.5px solid var(--line);
+}
+button.plain {
+  background: none; border: none; box-shadow: none; color: var(--focus);
+  text-decoration: underline; min-height: 56px; font-size: .95rem; font-weight: 500;
+}
+button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--focus); outline-offset: 2px;
+}
+
+input, select {
+  width: 100%; min-height: 60px;
+  font-size: 1.05rem; font-family: inherit;
+  border: 1.5px solid #d8d5ca; border-radius: 14px;
+  padding: .5rem .9rem; background: var(--card); color: var(--ink);
+  transition: border-color .12s ease, box-shadow .12s ease;
+}
+input:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(23, 97, 74, .15); }
+label { display: block; font-size: .95rem; font-weight: 700; color: var(--ink-soft); margin: .95rem 0 .3rem; }
+
+.row2 { display: flex; gap: .6rem; }
+.row2 > * { flex: 1; }
+
+.home-btns { margin-top: 1.3rem; }
+
+.card {
+  display: block; width: 100%; text-align: left;
+  background: var(--card); color: var(--ink);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: .9rem 1.1rem; margin: .7rem 0; min-height: 96px;
+  text-decoration: none;
+  transition: transform .12s ease;
+}
+.card:active { transform: scale(.99); }
+.card .t { font-size: 1.15rem; font-weight: 700; letter-spacing: -.01em; }
+.card .a { color: var(--ink-soft); font-size: .95rem; margin-top: .1rem; }
+.card .s { margin-top: .45rem; color: var(--ink-soft); font-size: .92rem; }
+
+.pill {
+  display: inline-block; padding: .12rem .75rem;
+  border-radius: 999px; font-size: .85rem; font-weight: 700;
+  vertical-align: middle;
+}
+.pill.ok  { background: var(--ok-bg);  color: var(--ok-ink); }
+.pill.bad { background: var(--bad-bg); color: var(--bad-ink); }
+.pill.off { background: var(--off-bg); color: var(--off-ink); }
+.statusline { margin: .2rem 0 .6rem; font-size: 1.05rem; }
+
+.locate {
+  background: var(--locate-bg); color: var(--locate-ink);
+  border-radius: 18px; box-shadow: var(--shadow);
+  padding: 1.1rem 1rem; margin: 1.1rem 0 .8rem; text-align: center;
+}
+.locate .where { font-size: 2rem; font-weight: 800; letter-spacing: -.02em; line-height: 1.25; }
+.locate .lbl { font-size: .95rem; font-weight: 600; opacity: .85; }
+
+.strip {
+  background: var(--ok-bg); color: var(--ok-ink);
+  border-radius: 14px; padding: .85rem 1rem; margin: .8rem 0;
+  font-size: 1rem; font-weight: 600;
+}
+.strip.err { background: var(--bad-bg); color: var(--bad-ink); }
+.strip button { margin-bottom: 0; }
+
+.topbar { margin-bottom: .9rem; }
+.topbar .btn { width: auto; display: inline-block; min-height: 54px; padding: .5rem 1rem; }
+
+.chips { display: flex; flex-wrap: wrap; gap: .6rem; margin: .6rem 0 0; }
+.chips button { flex: 1 1 40%; margin: 0; min-height: 58px; }
+
+.stepper { display: flex; align-items: center; gap: .6rem; }
+.stepper button { width: 72px; min-height: 72px; font-size: 1.7rem; margin: 0; flex: none; }
+.stepper .val {
+  flex: 1; text-align: center; font-size: 1.9rem; font-weight: 800;
+  border: 1.5px solid var(--line); border-radius: 14px; padding: .55rem 0;
+  background: var(--card);
+}
+
+.muted { color: var(--ink-soft); font-size: .95rem; }
+.center { text-align: center; }
+.count { font-size: .95rem; font-weight: 600; color: var(--ink-soft); margin: .7rem 0 .2rem; }
+.spacer { height: .8rem; }
