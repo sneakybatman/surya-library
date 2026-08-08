@@ -1,6 +1,6 @@
 // Offline-first PWA: cache the shell; network-first for the catalog so
 // search (the #1 use case) still works with no internet.
-const SHELL = "shell-v4";
+const SHELL = "shell-v5";
 const SHELL_FILES = ["/", "/app.js", "/style.css", "/manifest.json", "/icon.svg"];
 
 self.addEventListener("install", e => {

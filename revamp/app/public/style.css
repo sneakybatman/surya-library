@@ -59,14 +59,14 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   outline: 3px solid var(--focus); outline-offset: 2px;
 }
 
-input, select {
+input, select, textarea {
   width: 100%; min-height: 60px;
   font-size: 1.05rem; font-family: inherit;
   border: 1.5px solid #d8d5ca; border-radius: 14px;
   padding: .5rem .9rem; background: var(--card); color: var(--ink);
   transition: border-color .12s ease, box-shadow .12s ease;
 }
-input:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(23, 97, 74, .15); }
+input:focus, select:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(23, 97, 74, .15); }
 label { display: block; font-size: .95rem; font-weight: 700; color: var(--ink-soft); margin: .95rem 0 .3rem; }
 
 .row2 { display: flex; gap: .6rem; }
@@ -132,3 +132,6 @@ label { display: block; font-size: .95rem; font-weight: 700; color: var(--ink-so
 .center { text-align: center; }
 .count { font-size: .95rem; font-weight: 600; color: var(--ink-soft); margin: .7rem 0 .2rem; }
 .spacer { height: .8rem; }
+
+textarea { min-height: 110px; resize: vertical; line-height: 1.5; }
+.summary { color: var(--ink-soft); font-size: .98rem; line-height: 1.55; margin: .4rem 0 .6rem; }

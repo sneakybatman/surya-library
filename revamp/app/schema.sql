@@ -23,6 +23,7 @@ CREATE TABLE IF NOT EXISTS book (
     price           NUMERIC,
     binding         TEXT,
     notes           TEXT,
+    summary         TEXT,
     search_text     TEXT NOT NULL DEFAULT '',
     hidden          INTEGER NOT NULL DEFAULT 0,
     added_by        TEXT,

@@ -281,6 +281,7 @@ function viewDetail(id) {
     ${b.title_hi ? `<div class="muted">${esc(b.title_hi)}</div>` : ""}
     <div>Author: <b>${esc(b.author || "—")}</b></div>
     <div id="copies"></div>
+    ${b.summary ? `<p class="summary">${esc(b.summary)}</p>` : ""}
     <div class="muted">${esc(meta)}</div>
     <div class="spacer"></div>
     <a class="plain btn" data-nav href="/edit/${b.id}" style="border:none;background:none;color:var(--focus);text-decoration:underline">Edit details</a>`;
@@ -389,7 +390,9 @@ function formFields(b = {}) {
         <option ${b.language !== "Hindi" ? "selected" : ""}>English</option>
         <option ${b.language === "Hindi" ? "selected" : ""}>Hindi</option>
       </select>
-    </div></div>`;
+    </div></div>
+    <label>About this book</label>
+    <textarea id="f-summary" rows="3">${esc(b.summary || "")}</textarea>`;
 }
 
 function stepperHTML(idPrefix, label, val) {
@@ -428,6 +431,7 @@ function viewForm(id) {
       publisher: val("publisher"),
       pub_year: val("pub_year") ? +val("pub_year") : null,
       language: document.getElementById("f-language").value,
+      summary: val("summary"),
     };
     if (!payload.title) {
       msg.innerHTML = `<div class="strip err">Title is required</div>`;
@@ -445,7 +449,7 @@ function viewForm(id) {
       }
       await loadBooks(true);
       msg.innerHTML = `<div class="strip">✅ Saved</div>`;
-      if (!id) ["title", "title_hi", "author"].forEach(f =>
+      if (!id) ["title", "title_hi", "author", "summary"].forEach(f =>
         document.getElementById("f-" + f).value = "");
     } catch (e) {
       msg.innerHTML = `<div class="strip err">Could not save — check the internet and try again</div>`;

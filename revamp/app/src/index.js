@@ -45,7 +45,7 @@ function rateLimited(ip) {
 async function listBooks(env) {
   const { results: books } = await env.DB.prepare(
     "SELECT id,title,title_hi,author,author_hi,author2,publisher,publisher_place," +
-    "pub_year,pages,language,isbn,subject,series_name,volume_no,notes,search_text " +
+    "pub_year,pages,language,isbn,subject,series_name,volume_no,notes,summary,search_text " +
     "FROM book WHERE hidden=0 ORDER BY title").all();
   const { results: copies } = await env.DB.prepare(
     "SELECT id,book_id,accession_no,copy_no,almirah_no,shelf_no,status,remarks " +
@@ -61,7 +61,7 @@ async function listBooks(env) {
 
 const BOOK_FIELDS = ["title", "title_hi", "author", "author_hi", "author2",
   "publisher", "publisher_place", "pub_year", "pages", "language", "isbn",
-  "subject", "series_name", "volume_no", "notes", "search_text"];
+  "subject", "series_name", "volume_no", "notes", "summary", "search_text"];
 
 export default {
   async fetch(req, env) {
